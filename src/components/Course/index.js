@@ -8,7 +8,7 @@ class Course extends Component {
     const {details} = this.props
     const {id, logoUrl, name} = details
     return (
-      <Link to={`courses/${id}`}>
+      <Link to={`courses/${id}`} className="link-item">
         <li className="listItem">
           <div>
             <img src={logoUrl} alt={name} />
