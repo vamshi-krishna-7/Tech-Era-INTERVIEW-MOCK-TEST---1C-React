@@ -10,3 +10,7 @@
 li p {
   margin: 10px;
 }
+
+.link-item {
+  text-decoration: none;
+}
